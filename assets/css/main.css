@@ -36,6 +36,12 @@ nav a.navbar-brand {
 
 } */
 
+.container1 {
+padding: 48px;
+}
+
+
+
 div li a {
     position: relative;
     top: 1px;
@@ -47,6 +53,22 @@ div li a {
     
 }
 
-div li a.nav-item {
+.navbar-collapse {
+    margin-left: auto !important;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
     
+}
+    
+}
+div li.nav-item {
+      
+}
+
+
+
+/*header*/
+header {
+    padding: 48px;
 }
