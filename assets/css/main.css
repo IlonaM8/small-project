@@ -2,46 +2,46 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
 
+
+body {
+    background-color: wheat;
+}
+
+/*media query */
+@media only screen and (max-width:600px){
+    body {
+        background-color: thistle
+
+    }
+    .box1 {
+        width: 100%;
+    }
+    
+    .box2 {
+        width: 100%;
+    }
+    .box3 {
+        width: 100%;
+    }
+}
+
+
+
+
+/*
 body html {
     height: 100%;
     line-height: 1.8;
 }
+*/
 
-
-
-/* navbar-brand*/
-
-nav a.navbar-brand {
-    color: #000000;
-    padding-top: .7rem;
-    padding-bottom: .7rem;
-
-}
-
-.navbar-brand {
-    font-weight: 900;
-    font-size: 24px;
-    text-transform: uppercase;
-}
-
-/* doen't work?
-.navbar-brand {
-    display: inline-block;
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-
-} */
-
+/* navbar
 .container1 {
-padding: 48px;
-}
+    padding: 48px;
+    }
+    
 
-
-
+    
 div li a {
     position: relative;
     top: 1px;
@@ -61,14 +61,82 @@ div li a {
     
 }
     
+/* navbar-brand*/
+
+/* nav a.navbar-brand {
+    color: #000000;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+
 }
-div li.nav-item {
-      
-}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+} */ 
+
+/* doen't work?
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+
+} */
+
+
+
+
 
 
 
 /*header*/
 header {
     padding: 48px;
+    border:solid springgreen;
+}
+
+
+/*about me section*/
+div.aboutme-container {
+    display: flex;
+    border:solid yellow;
+    padding: 48px;
+}
+
+div.m1{
+    flex:1;
+    border:2px solid rgb(108, 167, 243); 
+    
+    text-align: center;
+}
+
+div.m2{
+    flex: 1;
+    border: 2px solid rgb(108, 167, 243);
+    text-align:justify;
+}
+
+/*What I do section*/
+.wrapper{
+    display:flex;
+    border: solid steelblue;
+}
+.wrapper > div {
+    flex: 1;
+}
+
+.box1 {
+    border: solid yellowgreen;
+}
+
+.box2 {
+    border: solid yellowgreen;
+}
+.box3 {
+    border: solid yellowgreen;
 }
