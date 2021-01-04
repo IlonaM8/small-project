@@ -96,31 +96,13 @@ div li a {
 
 /*header*/
 header {
+    display: flex;
     padding: 48px;
     border:solid springgreen;
 }
 
 
 /*about me section*/
-div.aboutme-container {
-    display: flex;
-    border:solid yellow;
-    padding: 48px;
-}
-
-div.m1{
-    flex:1;
-    border:2px solid rgb(108, 167, 243); 
-    
-    text-align: center;
-}
-
-div.m2{
-    flex: 1;
-    border: 2px solid rgb(108, 167, 243);
-    text-align:justify;
-}
-
 /*What I do section*/
 .wrapper{
     display:flex;
@@ -136,7 +118,23 @@ div.m2{
 
 .box2 {
     border: solid yellowgreen;
+    display: flex;
 }
+.minibox{
+   flex:1;
+}
+
 .box3 {
     border: solid yellowgreen;
 }
+
+/*specific parts of the box*/
+.wrapper2 {
+    display: grid;
+}
+
+.box2B {
+    display: flex;
+}
+
+
