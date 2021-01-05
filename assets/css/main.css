@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
 body {
@@ -57,9 +58,69 @@ html{
 
 /* navbar*/
 
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    display: inline-flex;
+    float: right;
+    
+    }
 
 
+    nav ul a{
+        text-decoration: none;
+        padding: 10px;
+        background-color: transparent;
+        color: black;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    
 
+        
+       
+        
+    }
+nav{
+    padding: 10px;
+    @media (min-width:600px){
+        padding:20px
+    }
+}
+
+/*logo navbar*/
+div .logonav {
+    float: left;
+    
+}
+nav div  {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    display: inline-flex;
+
+}
+
+div li a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+div li a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #0075f6;
+    text-decoration: underline;
+}
 
 
 
@@ -74,7 +135,7 @@ header {
 /*about me section*/
 /*What I do section*/
 .wrapper{
-    display:flex;
+    display:grid;
     border: solid steelblue;
     padding: 20px;
 }
