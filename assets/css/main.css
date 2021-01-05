@@ -17,11 +17,42 @@ html{
 
 
 
+/* media query for desktop: if this work the other one doesn't*/
+/* 
+@media only screen and (min-width: 768px) {
 
-/*media query */
+    body{
+        background-color:rgb(72, 229, 240);
+    }
+    nav {
+        background-color: cornflowerblue;
+    } */ 
+ 
+
+
+
+
+
+
+
+/*media query. Is this ok for mobile version? */
 @media only screen and (max-width:600px){
+    nav {
+        background-color:burlywood;
+       
+        
+        
+    }
+
+    nav .navbar{
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+/*body change for mobile*/
     body {
-        /* background-color: thistle */
+        background-color: thistle 
      }
 
     .box1 {
@@ -55,8 +86,21 @@ html{
 
 
 
-
 /* navbar*/
+
+  
+
+/* this way doesn't work
+nav .navbar {
+    /* padding: 10px; 
+    
+    
+    @media (min-width: 600px){
+        justify-content: space-between;
+    } 
+} */
+
+
 
 nav ul {
     list-style-type: none;
@@ -65,48 +109,37 @@ nav ul {
     padding-bottom: 10px;
     display: flex;
     justify-content: flex-end;
-    border: solid skyblue;
-    }
-
-    
-    nav ul a{
-        text-decoration: none;
-        padding: 10px;
-        background-color: transparent;
-        color: black;
-        font-size: 16px;
-        font-family: 'Poppins', sans-serif;
-        
-    
-
-        
-       
-        
-    }
-nav{
-    padding: 10px;
-    @media (min-width:600px){
-        padding:20px
-    }
+  
 }
+
+nav ul a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+    
+   
+
 
 /*logo navbar*/
-div .logonav {
-    /* float: left; */
+
     
-    
-}
-nav div  {
+nav div   {
     list-style: none;
     margin: 0px;
     padding: 0px;
     padding-bottom: 10px;
     display: flex;
-    justify-content: flex-start;
-    border: solid orange;
-    
-
+    justify-content: flex-start; 
 }
+
+
+
+
 
 div li a {
     text-decoration: none;
