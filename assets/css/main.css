@@ -63,12 +63,12 @@ nav ul {
     margin: 0px;
     padding: 0px;
     padding-bottom: 10px;
-    display: inline-flex;
-    float: right;
-    
+    display: flex;
+    justify-content: flex-end;
+    border: solid skyblue;
     }
 
-
+    
     nav ul a{
         text-decoration: none;
         padding: 10px;
@@ -76,6 +76,7 @@ nav ul {
         color: black;
         font-size: 16px;
         font-family: 'Poppins', sans-serif;
+        
     
 
         
@@ -91,7 +92,8 @@ nav{
 
 /*logo navbar*/
 div .logonav {
-    float: left;
+    /* float: left; */
+    
     
 }
 nav div  {
@@ -99,7 +101,10 @@ nav div  {
     margin: 0px;
     padding: 0px;
     padding-bottom: 10px;
-    display: inline-flex;
+    display: flex;
+    justify-content: flex-start;
+    border: solid orange;
+    
 
 }
 
@@ -110,6 +115,7 @@ div li a {
     font-weight: 900;
     text-transform: uppercase;
     background-color: transparent;
+    
 }
 div li a:hover{
     color: black;
