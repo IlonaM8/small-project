@@ -19,22 +19,20 @@ html{
 
 
 
+
 /*media query. Is this ok for mobile version? */
 @media only screen and (max-width:600px){
     nav {
         background-color:burlywood;
-       
-        
-        
+         
     }
 
     nav .navbar{
-        justify-content: center;
-        flex-wrap: wrap;
+        justify-content: space-between;
 
     }
 
-/*body change for mobile*/
+
     body {
         background-color: thistle 
      }
@@ -65,7 +63,19 @@ html{
         display: grid;
         float: left;
     } 
+
+
+    .fullwidth{
+        display: grid;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+    }   
 }
+
+
+
+
+
 
 
 /* media query for desktop*/
@@ -73,7 +83,7 @@ html{
 @media only screen and (min-width: 768px) {
 
     body{
-        background-color:rgb(72, 229, 240);
+        background-color:seagreen;
     }
     nav {
         background-color: cornflowerblue;
@@ -83,20 +93,10 @@ html{
 
 
 
-  
-
-/* this way doesn't work
-nav .navbar {
-    /* padding: 10px; 
-    
-    
-    @media (min-width: 600px){
-        justify-content: space-between;
-    } 
-} */
 
 
 
+/*navbar*/
 nav ul {
     list-style-type: none;
     margin: 0px;
@@ -116,7 +116,7 @@ nav ul a{
     font-family: 'Poppins', sans-serif;
 }
 
-    
+ 
    
 
 
