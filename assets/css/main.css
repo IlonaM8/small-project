@@ -5,8 +5,7 @@ body {
     /* background-color: wheat; */
     width: 90%;
     max-width: 900px;
-    margin: 0 auto !important;
-    
+    margin: 0 auto !important; 
 }
 
 
@@ -14,21 +13,6 @@ body {
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-/* media query for desktop: if this work the other one doesn't*/
-/* 
-@media only screen and (min-width: 768px) {
-
-    body{
-        background-color:rgb(72, 229, 240);
-    }
-    nav {
-        background-color: cornflowerblue;
-    } */ 
- 
-
 
 
 
@@ -84,9 +68,20 @@ html{
 }
 
 
+/* media query for desktop*/
+
+@media only screen and (min-width: 768px) {
+
+    body{
+        background-color:rgb(72, 229, 240);
+    }
+    nav {
+        background-color: cornflowerblue;
+    } 
+}
 
 
-/* navbar*/
+
 
   
 
@@ -127,7 +122,6 @@ nav ul a{
 
 /*logo navbar*/
 
-    
 nav div   {
     list-style: none;
     margin: 0px;
@@ -147,9 +141,10 @@ div li a {
     font-size: 24px;
     font-weight: 900;
     text-transform: uppercase;
-    background-color: transparent;
-    
+    background-color: transparent;  
 }
+
+
 div li a:hover{
     color: black;
     text-decoration: none;
