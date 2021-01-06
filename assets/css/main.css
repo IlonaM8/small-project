@@ -47,10 +47,18 @@ html{
      .navbar .icon{
         display: block;
         float: right;
+        text-transform: uppercase;
+        color: gray;
+        
     } 
 
-   .navbar a:not(:first-child) {
+   .navbar ul {
        display: none;
+       
+   }
+
+   .fa-bars{
+       padding-right: 10px;
    }
 
 
@@ -116,6 +124,7 @@ html{
 
     .navbar .icon{
         display: none;
+        color: purple;
     }
     
 }
