@@ -22,15 +22,39 @@ html{
 
 /*media query. Is this ok for mobile version? */
 @media only screen and (max-width:600px){
-    nav {
+    /* nav {
         background-color:burlywood;
-         
-    }
+               
+    } */
 
-    nav .navbar{
+    .navbar{
+        background-color: rgb(41, 40, 40);
+        overflow: hidden;
+    }
+    .navbar a {
         justify-content: space-between;
-
+        color: snow;
+      
     }
+
+    
+
+    .navbar a:active{
+        color: #0075f6;
+        
+    } 
+
+     .navbar .icon{
+        display: block;
+        float: right;
+    } 
+
+   .navbar a:not(:first-child) {
+       display: none;
+   }
+
+
+
 
 
     body {
@@ -80,7 +104,7 @@ html{
 
 /* media query for desktop*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 601px) {
 
     body{
         background-color:seagreen;
@@ -88,6 +112,12 @@ html{
     nav {
         background-color: cornflowerblue;
     } 
+
+
+    .navbar .icon{
+        display: none;
+    }
+    
 }
 
 
@@ -158,12 +188,21 @@ a:hover {
 
 
 
+
+
+
+
+
 /*header*/
 header {
     display: flex;
     padding: 48px;
     border:solid springgreen;
 }
+
+
+
+
 
 
 /*about me section*/
