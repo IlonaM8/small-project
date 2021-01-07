@@ -2,7 +2,7 @@
 
 
 body {
-    /* background-color: wheat; */
+
     width: 90%;
     max-width: 900px;
     margin: 0 auto !important; 
@@ -36,7 +36,7 @@ html{
     
 
      .navbar{
-        background-color: rgb(41, 40, 40);
+        background-color: black;
         overflow: hidden;
     }
     .navbar a {
@@ -54,10 +54,8 @@ html{
     } 
 
      .navbar .icon{
-         display: block; 
-
+        display: block; 
         float: right;
-       
         text-transform: uppercase;
         color: gray;
         padding-left: 10px;
@@ -114,20 +112,11 @@ html{
     } 
 
 
-    .fullwidth{
-        display: grid;
-        justify-content:flex-start;
-        flex-wrap: wrap;
-    }   
-}
 
+    /*for the function*/
 
-
-
-/*for the function..*/
-
-@media only screen and (max-width:600px){
     .navbar.responsive {position: relative;}
+
     .navbar.responsive a.icon {
         position: absolute;
         right: 0;
@@ -138,8 +127,9 @@ html{
         display: block;
         text-align: left;
     }
-}
 
+
+}
 
 
 
