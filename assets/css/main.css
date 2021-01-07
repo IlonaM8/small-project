@@ -133,7 +133,7 @@ html{
         right: 0;
         top: 0;
     }
-    .navbar.responsive a {
+    .navbar.responsive ul {
         float: none;
         display: block;
         text-align: left;
