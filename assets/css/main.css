@@ -22,10 +22,7 @@ html{
 
 /*media query. Is this ok for mobile version? */
 @media only screen and (max-width:600px){
-    /* nav {
-        background-color:burlywood;
-               
-    } */
+    
 
     nav span a{
         display: flex;
@@ -193,19 +190,10 @@ nav ul a{
      justify-content: flex-start;  */
 } 
 
-/*apply this only for mobile, maybe*/
-/* nav span a{
-    display: flex;
-    justify-content: flex-start;
-    padding-bottom: 10px; 
-    padding-top: 10px; 
-    padding-left: 10px;   
-   
-} */
 
 
 
- span li a  {
+span li a  {
     text-decoration: none;
     color: black;
     font-size: 24px;
