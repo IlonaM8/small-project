@@ -27,17 +27,28 @@ html{
                
     } */
 
-    .navbar{
+    nav span a{
+        display: flex;
+        justify-content: flex-start; 
+        padding-bottom: 10px; 
+        padding-top: 10px; 
+        padding-left: 10px; 
+    }
+
+    
+
+     .navbar{
         background-color: rgb(41, 40, 40);
         overflow: hidden;
     }
     .navbar a {
+        
         justify-content: space-between;
         color: snow;
       
     }
 
-    
+   
 
     .navbar a:active{
         color: #0075f6;
@@ -45,12 +56,20 @@ html{
     } 
 
      .navbar .icon{
-        display: block;
+         display: block; 
+
         float: right;
+       
         text-transform: uppercase;
         color: gray;
+        padding-left: 10px;
         
     } 
+
+    span .menu {
+        padding-left: 10px;
+    }
+
 
    .navbar ul {
        display: none;
@@ -110,7 +129,7 @@ html{
 
 
 
-/* media query for desktop*/
+/* media query for tablet */
 
 @media only screen and (min-width: 601px) {
 
@@ -118,15 +137,21 @@ html{
         background-color:seagreen;
     }
     nav {
+        position: relative;
+        border: solid blue;
         background-color: cornflowerblue;
     } 
 
 
     .navbar .icon{
         display: none;
-        color: purple;
+        
     }
     
+
+    span li a {
+        position: absolute;
+    }
 }
 
 
@@ -141,7 +166,7 @@ nav ul {
     margin: 0px;
     padding: 0px;
     padding-bottom: 10px;
-    display: flex;
+     display: flex; 
     justify-content: flex-end;
   
 }
@@ -160,31 +185,42 @@ nav ul a{
 
 
 /*logo navbar*/
+ nav span {
+     list-style: none;  
+      margin: 0px;
+     padding-bottom: 0px;  
+     /* display: flex; 
+     justify-content: flex-start;  */
+} 
 
-nav div   {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    padding-bottom: 10px;
+/*apply this only for mobile, maybe*/
+/* nav span a{
     display: flex;
-    justify-content: flex-start; 
-}
+    justify-content: flex-start;
+    padding-bottom: 10px; 
+    padding-top: 10px; 
+    padding-left: 10px;   
+   
+} */
 
 
 
-
-
-div li a {
+ span li a  {
     text-decoration: none;
     color: black;
     font-size: 24px;
     font-weight: 900;
     text-transform: uppercase;
-    background-color: transparent;  
-}
+    background-color: transparent; 
+    /* display: flex;
+    justify-content: flex-start; */
+    
+}  
+ 
 
 
-div li a:hover{
+
+span li a:hover{
     color: black;
     text-decoration: none;
 }
