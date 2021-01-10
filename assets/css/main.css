@@ -171,7 +171,7 @@ html{
 @media only screen and (min-width: 768px) {
 
     body{
-        background-color:gainsboro;
+        /* background-color:gainsboro; */
     }
     nav {
         position: relative;
@@ -201,13 +201,8 @@ html{
 
 }
 
-/*Media query medium size devices*/
-/* @media screen and (max-width:991px) and (min-width: 601px){
-    
-    body {
-        background-color: gold;
-    }
-} */
+/*Media query medium size devices for specific elements*/
+ 
 
 
 
@@ -290,7 +285,7 @@ a:hover {
 header {
     display: flex;
     padding: 48px;
-    border:solid springgreen;
+    /* border:solid springgreen; */
 }
 
 
@@ -340,5 +335,45 @@ header {
 .wrapper3{
     display:block;
     padding: 20px;
+}
+
+
+/* contact form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Poppins";
+
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Poppins";
+
+}
+
+ input[type=submit]  { 
+    background-color: #0075f6;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Poppins";
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
 }
 
