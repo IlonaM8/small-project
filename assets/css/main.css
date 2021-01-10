@@ -1,21 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
+
 body {
 
     width: 90%;
     max-width: 900px;
-    margin: 0 auto !important; 
+     margin: 0 auto !important;  
+    
 }
 
+
+
+main {
+    margin-top: 100px;
+    }
 
 
 html{
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 
 
+/* fixed navbar */
 
 
 
@@ -28,9 +37,11 @@ html{
     nav span a{
         display: flex;
         justify-content: flex-start; 
+       
         padding-bottom: 10px; 
         padding-top: 10px; 
-        padding-left: 10px; 
+         padding-left: 10px; 
+        
     }
 
     
@@ -38,6 +49,7 @@ html{
      .navbar{
         background-color: black;
         overflow: hidden;
+        
     }
     .navbar a {
         
@@ -61,6 +73,12 @@ html{
         padding-left: 10px;
         
     } 
+      /*navbar fixed on top*/
+    .navbar {
+        position:fixed;
+        top:0;
+        width: 90%;
+    }
 
     span .menu {
         padding-left: 10px;
@@ -81,7 +99,7 @@ html{
 
 
     body {
-        background-color: thistle 
+        /* background-color: thistle  */
      }
 
     .box1 {
@@ -114,9 +132,16 @@ html{
 
 
     /*for the function*/
+    .navbar.responsive {
+        /* position: relative; */
+        
+        width: 90%;
+        position: fixed;
+        top:0;
+    
+    }
 
-    .navbar.responsive {position: relative;}
-
+    
     .navbar.responsive a.icon {
         position: absolute;
         right: 0;
@@ -126,9 +151,14 @@ html{
         float: none;
         display: block;
         text-align: left;
+        
+        
     }
 
+    
 
+
+   
 }
 
 
@@ -144,24 +174,34 @@ html{
 @media only screen and (min-width: 601px) {
 
     body{
-        background-color:seagreen;
+        background-color:gainsboro;
     }
     nav {
         position: relative;
-        border: solid blue;
+        border: solid transparent;
         background-color: cornflowerblue;
     } 
 
+   
 
     .navbar .icon{
         display: none;
         
     }
     
+    /*fixed navbar*/
+    .navbar{
+        position:fixed;
+        top:0;
+        width: 66%;
+    }
 
     span li a {
         position: absolute;
     }
+
+
+
 }
 
 
@@ -233,8 +273,12 @@ a:hover {
 }
 
 
-
-
+/* fixed navbar
+.navbar{
+    position:fixed;
+    top:0;
+    width: 100%;
+} */
 
 
 
@@ -251,12 +295,14 @@ header {
 
 
 
+
 /*about me section*/
 /*What I do section*/
 .wrapper{
     display:grid;
     border: solid steelblue;
     padding: 20px;
+    
 }
 .wrapper > div {
     flex: 1;
