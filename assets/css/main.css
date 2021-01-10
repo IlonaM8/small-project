@@ -102,8 +102,14 @@ html{
         /* background-color: thistle  */
      }
 
+     img{
+         width: 360px;
+         height: 400px;
+     }
     .box1 {
         width: 100%;
+        
+        
     }
     
     .box2 {
@@ -173,6 +179,7 @@ html{
     body{
         /* background-color:gainsboro; */
     }
+
     nav {
         position: relative;
         border: solid transparent;
@@ -197,7 +204,10 @@ html{
         position: absolute;
     }
 
-
+    img{
+         width: 360px;
+         height: 400px;
+        }
 
 }
 
@@ -296,18 +306,21 @@ header {
 
 /*about me section*/
 /*What I do section*/
-.wrapper{
-    display:grid;
-    border: solid steelblue;
+
+ .wrapper{
+    display: block;
     padding: 20px;
     
-}
-.wrapper > div {
+    
+} 
+/* .wrapper  {
     flex: 1;
-}
+} */
 
 .box1 {
     border: solid yellowgreen;
+    display: flex;
+    
 }
 
 .box2 {
