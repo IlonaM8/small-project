@@ -38,11 +38,13 @@ html{
         display: flex;
         justify-content: flex-start; 
        
-        padding-bottom: 10px; 
-        padding-top: 10px; 
-         padding-left: 10px; 
+        padding-bottom: 0px; 
+        padding-top: 0px; 
+        padding-left: 0px;  
         
     }
+
+   
 
     
 
@@ -74,11 +76,11 @@ html{
         
     } 
       /*navbar fixed on top*/
-    /* .navbar {
+     .navbar {
         position:fixed;
         top:0;
-        width: 90%;
-    } */
+        width: 100%;
+    } 
 
     span .menu {
         padding-left: 10px;
@@ -183,7 +185,7 @@ html{
     nav {
         position: relative;
         border: solid transparent;
-        background-color: cornflowerblue;
+        background-color: white;
     } 
 
    
@@ -194,11 +196,11 @@ html{
     }
     
     /* fixed navbar */
-    /* .navbar{
+     .navbar{
         position:fixed;
         top:0;
-         width: 100%; 
-    } */
+         width: 75%; 
+    } 
 
     span li a {
         position: absolute;
