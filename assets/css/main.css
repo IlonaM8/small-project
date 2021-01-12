@@ -14,6 +14,7 @@ body {
 
 main {
     margin-top: 100px;
+
     }
 
 
@@ -24,7 +25,7 @@ html{
 
 
 
-/* fixed navbar */
+
 
 
 
@@ -40,7 +41,7 @@ html{
        
         padding-bottom: 0px; 
         padding-top: 0px; 
-        padding-left: 0px;  
+        padding-left: 10px;  
         
     }
 
@@ -100,14 +101,11 @@ html{
 
 
 
-    body {
-        /* background-color: thistle  */
-     }
 
-     img{
-         width: 360px;
-         height: 400px;
-     }
+
+    
+
+
     .box1 {
         width: 100%;
         
@@ -124,10 +122,7 @@ html{
         width: 100%;
     }
 
-     .wrapper{
-        display: grid;
-        float: left;
-    } 
+     
     .wrapper2{
         display: grid;
         float: left;
@@ -179,6 +174,7 @@ html{
 @media only screen and (min-width: 768px) {
 
     body{
+        
         /* background-color:gainsboro; */
     }
 
@@ -206,10 +202,10 @@ html{
         position: absolute;
     }
 
-    img{
+    /* img{
          width: 360px;
          height: 400px;
-        }
+        } */
 
 }
 
@@ -309,20 +305,20 @@ header {
 /*about me section*/
 /*What I do section*/
 
- .wrapper{
-    display: block;
-    padding: 20px;
-    
-    
-} 
-/* .wrapper  {
-    flex: 1;
-} */
+  
+
 
 .box1 {
-    border: solid yellowgreen;
     display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    font-family: "Poppins";
+     
     
+}
+
+.box1:first-child{
+    align-self: center;
 }
 
 .box2 {
