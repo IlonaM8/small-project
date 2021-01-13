@@ -134,7 +134,7 @@ p{
         
     }
     
-    .box2 {
+    /* .box2 {
         width: 100%;
     }
     .box3 {
@@ -142,7 +142,7 @@ p{
     } 
     .box2B{
         width: 100%;
-    }
+    } */
 
      
     
@@ -292,12 +292,7 @@ a:hover {
 }
 
 
-/* fixed navbar
-.navbar{
-    position:fixed;
-    top:0;
-    width: 100%;
-} */
+
 
 
 
@@ -336,7 +331,10 @@ header {
 
 
 
-/*What I do section*/
+/*What I do section*/ 
+/*Accomplisments*/
+/*blog section*/
+
 .box2{
     padding-top: 80px;
     display: grid;
@@ -364,8 +362,14 @@ header {
     
 }
 
+/*Accomplisments*/
+
+
+
+
+
 /*Hire me section*/
-.hireme{
+ .hireme{
    background: #0075f6; 
    padding-top: 7em;
    padding-right: 0px;
@@ -377,7 +381,7 @@ header {
    
 }
 
-.box3{
+.box4{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -408,39 +412,20 @@ color: black !important;
     font-weight: 400;
     text-align: center;
     vertical-align: middle;
-}
+} 
 
 
 
 
-/* 
-.box2 {
-    border: solid yellowgreen;
+
+/*contact me*/
+.box5{
     display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    font-family: "Poppins";
+    margin-top: 80px;
 }
-.minibox{
-   flex:1;
-}
-
-.box3 {
-    border: solid yellowgreen;
-} */
-
-/*specific parts of the box*/
-.wrapper2 {
-    display: grid;
-    padding: 20px;
-}
-
-.box2B {
-    display: flex;
-}
-
-.wrapper3{
-    display:block;
-    padding: 20px;
-}
-
 
 
 
