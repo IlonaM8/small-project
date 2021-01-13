@@ -23,9 +23,27 @@ html{
    
 }
 
+p{
+    color: gray;
+ }
 
+ h4 {
+    font-weight: 300;
+    
+}
 
+ .subheading{
+     color: black;
+     text-transform: uppercase;
+     font-size: 13px;
+     display: block;
+     margin-bottom: 5px;
+     letter-spacing: 3px;
+ }
 
+ img {
+     opacity: 0.8;
+ }
 
 
 
@@ -103,12 +121,16 @@ html{
 
 
 
-    
+    div {
+        padding: 10px;
+    }
 
 
     .box1 {
-        width: 100%;
-        
+        /* width: 100%; */
+        display: grid;
+       
+       
         
     }
     
@@ -123,14 +145,8 @@ html{
     }
 
      
-    .wrapper2{
-        display: grid;
-        float: left;
-    } 
-    .wrapper3{
-        display: grid;
-        float: left;
-    } 
+    
+    
 
 
 
@@ -173,10 +189,7 @@ html{
 
 @media only screen and (min-width: 768px) {
 
-    body{
-        
-        /* background-color:gainsboro; */
-    }
+     
 
     nav {
         position: relative;
@@ -209,7 +222,7 @@ html{
 
 }
 
-/*Media query medium size devices for specific elements*/
+
  
 
 
@@ -305,7 +318,6 @@ header {
 /*about me section*/
 /*What I do section*/
 
-  
 
 
 .box1 {
@@ -321,6 +333,45 @@ header {
     align-self: center;
 }
 
+
+
+
+/*What I do section*/
+.box2{
+    padding-top: 80px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins";
+    
+}
+ 
+/*Services*/
+.box3{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    
+}
+
+.minibox {
+    
+    margin-top: 18px;
+    font-size: 20px;
+    /* font-weight: 300; */
+    margin-bottom: 18px;
+    
+    
+}
+
+
+
+
+
+
+
+/* 
 .box2 {
     border: solid yellowgreen;
     display: flex;
@@ -331,7 +382,7 @@ header {
 
 .box3 {
     border: solid yellowgreen;
-}
+} */
 
 /*specific parts of the box*/
 .wrapper2 {
@@ -347,6 +398,8 @@ header {
     display:block;
     padding: 20px;
 }
+
+
 
 
 /* contact form*/
