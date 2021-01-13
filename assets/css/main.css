@@ -317,17 +317,28 @@ header {
 
 .box1 {
     display: flex;
-    align-items:flex-start;
-    justify-content: space-between;
-    font-family: "Poppins";
-     
+    /* align-items:flex-start; */
+    /* justify-content: space-between; */
+    font-family: "Poppins";  
     
 }
 
-.box1:first-child{
-    align-self: center;
-}
 
+
+
+
+
+
+/*image*/
+
+/* img {
+    background-image: url('images/developer.png');
+    background-color: #0075f6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+} */
 
 
 
