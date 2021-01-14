@@ -2,6 +2,7 @@
 
 
 
+
 body {
     background: #fff;
     line-height: 1.8;
@@ -190,7 +191,7 @@ display: none;
     nav {
         position: relative;
         border: solid transparent;
-        background-color: white;
+        background-color: white !important;
     } 
 
    
@@ -313,11 +314,20 @@ header {
 
 .box1 {
     display: flex;
-    /* align-items:flex-start; */
+    align-items:center;
     justify-content: space-between;
-    font-family: "Poppins";  
+    font-family: "Poppins";
+      
+    
     
 }
+
+.aboutmebox{
+    margin-left: 60px;
+    align-self: baseline;
+    padding-top: 40px;
+}
+
 
 .heading{
     color: black;
@@ -396,6 +406,8 @@ header {
 
 /*Hire me section*/
  .hireme{
+   display: block;
+   width:100%;
    background: #0075f6; 
    padding-top: 4em;
    padding-bottom: 4em;
