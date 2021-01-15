@@ -324,7 +324,7 @@ header {
 
 
 
-/* *{box-sizing: border-box;} */
+*{box-sizing: border-box;} 
 
 /* Slideshow container */
 .slideshowcontainer {
@@ -374,6 +374,11 @@ header {
     background-color: rgba(0,0,0,0.8);
   }
 
+  .imghead{
+      display: center;
+      
+  }
+
 /* Caption text */
 .text {
     font-family: "Poppins";
@@ -382,8 +387,8 @@ header {
     padding: 8px 12px;
     position: absolute;
     bottom: 60px;
-    right: 18em;
-    line-height: 80px;
+    right: 16em;
+    line-height: 69px;
   }
   
   .blutext{
@@ -393,7 +398,7 @@ header {
   
 .subtheader{
     /* font-weight: 400; */
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 200;
     
 }
@@ -435,7 +440,24 @@ header {
 
 
 
+.bluehalf{
+    background-color: #77b7ff;
+    width: 42%;
 
+    position: absolute;
+    top: 4em;
+    /* bottom: 10em; */
+    left: 48em;
+    
+    height: 90%;
+    z-index:-1;
+    opacity: 1;
+    
+    
+    
+
+
+}
 
 
 
