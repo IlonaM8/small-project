@@ -210,7 +210,7 @@ h3{
     nav {
         position: relative;
         border: solid transparent;
-        background-color: rgb(113, 181, 238) !important;
+        background-color:white !important;
         padding-top: 20px;
     } 
 
@@ -327,11 +327,20 @@ header {
 /* *{box-sizing: border-box;} */
 
 /* Slideshow container */
-.slideshow-container {
+.slideshowcontainer {
     max-width: 1000px;
     position: relative;
     margin: auto;
   }
+
+
+   .text{
+    background: rgb(245, 236, 236); /* Fallback color */
+    background: rgba(250, 249, 249, 0.5); /* Black background with 0.5 opacity */
+  
+  } 
+
+
 
 /* Hide the images by default */
 .mySlides {
@@ -367,21 +376,42 @@ header {
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
-    font-size: 15px;
+    font-family: "Poppins";
+    color:rgb(26, 26, 27);
+    font-size: 40px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
+    bottom: 60px;
+    right: 18em;
+    line-height: 80px;
   }
   
+  .blutext{
+      color: cornflowerblue;
+      font-weight: bold;
+  }
   
-  
-  
- 
-  
-  
+.subtheader{
+    /* font-weight: 400; */
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+
+
+.btncustom{
+    color: rgb(6, 117, 190);
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 5px;
+    
+}
+
+
+
  
   
   /* Fading animation */
