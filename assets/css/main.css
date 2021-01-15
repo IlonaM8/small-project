@@ -442,12 +442,12 @@ header {
 
 .bluehalf{
     background-color: #77b7ff;
-    width: 42%;
+    width: 35%;
 
     position: absolute;
     top: 4em;
     /* bottom: 10em; */
-    left: 48em;
+    left: 54em;
     
     height: 90%;
     z-index:-1;
