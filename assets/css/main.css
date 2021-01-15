@@ -178,13 +178,65 @@ h3{
 
 
    /*small image of the header for mobile*/
-   .imghead{
-       width: 444px;
-       height: 750px;
+   .headimg{
+       align-self:center;
+       width: 380px;
+       height: 500px;
+       z-index:-1;
    }
 
 
+
+    .text{
+    background: rgb(245, 236, 236); /* Fallback color */
+    background: rgba(250, 249, 249, 0.5); /* Black background with 0.5 opacity */
+  
+  }  
+   .text{
+    font-size: 24px;
+    font-family: "Poppins";
+    color:rgb(26, 26, 27);
+    padding-left: 26px;
+    position: absolute;
+    bottom: -3em;
+    right: 8em !important;
+    line-height: 55px;
+
+   }
+
+
+
+   .blutext{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+  .subtheader2{
+  /* font-weight: 400; */
+  font-size: 22px;
+  font-weight: 200;
+  
+  }
+
+
+  .btncustom{
+  color: rgb(6, 117, 190);
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 5px;
+  text-decoration: none;
+  border: solid 1px;
+  padding: 5px;
+  
+  
+  }
+
+
    
+   .slideshowcontainer{
+     display: none;
+   }
+
 
 
 
@@ -236,6 +288,168 @@ h3{
          width: 360px;
          height: 400px;
         } */
+
+
+
+
+        
+*{box-sizing: border-box;} 
+
+/* Slideshow container */
+  .slideshowcontainer {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+
+   .text{
+    background: rgb(245, 236, 236); /* Fallback color */
+    background: rgba(250, 249, 249, 0.5); /* Black background with 0.5 opacity */
+  
+  } 
+
+  .text2{
+    background: rgb(245, 236, 236); /* Fallback color */
+    background: rgba(250, 249, 249, 0.5); /* Black background with 0.5 opacity */
+  
+  } 
+
+
+
+/* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+   /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .imghead{
+      display: center;
+      
+  }
+
+   /* Caption text */
+  .text {
+    font-family: "Poppins";
+    color:rgb(26, 26, 27);
+    font-size: 40px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 60px;
+    right: 16em;
+    line-height: 69px;
+  }
+
+  .text2 {
+    font-family: "Poppins";
+    color:rgb(26, 26, 27);
+    font-size: 40px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 60px;
+    right: 16em;
+    line-height: 57px;
+  }
+  
+  
+  .blutext{
+      color: cornflowerblue;
+      font-weight: bold;
+  }
+  
+  .subtheader2{
+    /* font-weight: 400; */
+    font-size: 22px;
+    font-weight: 200;
+    
+}
+
+
+  .btncustom{
+    color: rgb(6, 117, 190);
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 5px;
+    
+  }
+
+
+
+ 
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+
+
+  .bluehalf{
+    background-color: #77b7ff;
+    width: 35%;
+
+    position: absolute;
+    top: 4em;
+    /* bottom: 10em; */
+    left: 54em;
+    
+    height: 90%;
+    z-index:-1;
+    opacity: 1;
+
+  }
+
+ /*display none for */
+.mobilecontainer{
+    display: none;
+}
+
+
+
+
 
 }
 
@@ -323,141 +537,6 @@ header {
 }
 
 
-
-*{box-sizing: border-box;} 
-
-/* Slideshow container */
-.slideshowcontainer {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-
-
-   .text{
-    background: rgb(245, 236, 236); /* Fallback color */
-    background: rgba(250, 249, 249, 0.5); /* Black background with 0.5 opacity */
-  
-  } 
-
-
-
-/* Hide the images by default */
-.mySlides {
-    display: none;
-  }
-
-  /* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-
-  /* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-
-  .imghead{
-      display: center;
-      
-  }
-
-/* Caption text */
-.text {
-    font-family: "Poppins";
-    color:rgb(26, 26, 27);
-    font-size: 40px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 60px;
-    right: 16em;
-    line-height: 69px;
-  }
-  
-  .blutext{
-      color: cornflowerblue;
-      font-weight: bold;
-  }
-  
-.subtheader{
-    /* font-weight: 400; */
-    font-size: 22px;
-    font-weight: 200;
-    
-}
-
-
-.btncustom{
-    color: rgb(6, 117, 190);
-    font-weight: 100;
-    font-size: 15px;
-    letter-spacing: 5px;
-    text-decoration: none;
-    border: solid 1px;
-    padding: 5px;
-    
-}
-
-
-
- 
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 5s;
-    animation-name: fade;
-    animation-duration: 5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-
-
-
-.bluehalf{
-    background-color: #77b7ff;
-    width: 35%;
-
-    position: absolute;
-    top: 4em;
-    /* bottom: 10em; */
-    left: 54em;
-    
-    height: 90%;
-    z-index:-1;
-    opacity: 1;
-    
-    
-    
-
-
-}
 
 
 
