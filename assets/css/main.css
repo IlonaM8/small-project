@@ -62,7 +62,7 @@ h3{
 
 
     body {
-        
+        border: solid aquamarine;
         /* max-width: 480px; */
         width: 100%;
         /* margin: 0 auto !important;   */
@@ -769,16 +769,17 @@ padding-bottom: 20px;
 .box5{
     display: flex;
     align-items:flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
     /* font-family: "Poppins"; */
     margin-top: 80px;
 }
 
 .contact {
-    max-width: 400px;
+    max-width: 350px;
     width: 100%;
     background: #f8f9fa !important;
     padding: 3rem !important;
+    left: 0px;
     
     
 }
