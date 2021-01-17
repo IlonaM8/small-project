@@ -198,10 +198,12 @@ h3{
 
    /*small image of the header for mobile*/
    .headimg{
-       /* border: solid blueviolet; */
-       align-items: center;
-       width: 380px;
-       height: 500px;
+       border: solid blueviolet;
+       justify-content: center;
+       /* align-items: center; */
+       width: 100%;;
+       /* width: 380px;
+       height: 500px; */
        z-index:-1;
    }
 
