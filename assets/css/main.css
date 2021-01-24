@@ -65,8 +65,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
-
 
     
 }
@@ -113,19 +111,11 @@ h3{
 @media only screen and (max-width:767px)  {
 
 
-    body {
-        width: 100%;
-        margin-left: 0px;
-        margin-right: 0px;
-        
-    }
-
-    nav {
-        width: 100%;
-    }
-
     
 
+   
+
+    
     nav span a{
         display: flex;
         justify-content: flex-start; 
@@ -537,13 +527,68 @@ cursor: pointer;
 
 /*Hire me section*/
 
+.hireme{
+    background-color: rgb(9, 128, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    max-width: 100%;
+   
+}
+
+.box4{
+   
+    border-radius: 10px;
+    padding: 15px 25px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.row{
+    text-align: center;
+    color:white;
+    line-height: 2em;
+    font-size: 2.5em; 
+    
+    
+}
+
+.row span{
+    font-weight:bolder;  
+    
+}
+
+.btn-hireme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 1em;
+}
+
+.btn-hireme, .btn {
+    display: flex;
+    align-self: center;
+    padding: 1em;
+    font-size: 1em;
+   transition: all 0.25s;
 
 
+}
 
-
-
-
-
+.btn-hireme:hover{
+  border-color: #f1ff5c;
+  color:orange;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
 
 
 
