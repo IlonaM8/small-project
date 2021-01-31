@@ -1,11 +1,12 @@
 'use strict';
 
+
+
 function myFunction() {
-    var x = document.getElementById('myNavbar');
-    if (x.className === 'navbar') {
-        x.className += ' responsive';
+    var x = document.getElementById("myNavbar");
+    if (x.style.display === "block") {
+        x.style.display = "none";
     } else {
-        x.className = 'navbar';
+        x.style.display = "block";
     }
 }
-

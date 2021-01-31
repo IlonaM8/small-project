@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+html{
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+body {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+
+    
+}
+
+
+
+main {
+    margin: 5%;
+    background-color: rgb(205, 226, 243);
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+p{
+    color: gray;
+    line-height: 1.8em;
+    text-align: justify;
+    margin:0.4em;
+    
+ }
+
+ h4 {
+    font-weight: 300;
+    
+}
+
+h3{
+    font-size: 1.4em;
+    color: rgb(53, 50, 50);
+    
+
+    
+    
+    
+}
+
+h1{
+    font-size: 2em;
+}
+
+ 
+nav{
+    margin:auto;
+    display: flex;
+    flex-direction:column;
+
+}
+
+
+.navbar{
+    overflow: hidden;
+    background-color: rgb(134, 134, 241);
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navbar, ul, a{
+    text-decoration: none;
+}
+
+.navbar #myNavbar{
+    display: none;
+}
+
+.navbar a{
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+display: block;
+}
+
+.navbar a.icon{
+    background: rgb(83, 99, 247);
+    display: block;
+    position:absolute;
+    right: 0;
+    top: 0;
+}
+
+.navbar a:hover{
+    background-color: rgb(121, 60, 233);
+    color:white;
+}
+
+.active{
+    background-color:  rgb(134, 134, 241);
+    color: white;
+}
+
+
+/*header*/
+header {
+    display: flex;
+    padding: 5%;
+    
+}
+
+ /* background image*/
+ .head1{
+    width: 100%;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1486520299386-6d106b22014b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+
+ /* Caption text */
+ .text {
+    background-color: rgba(255, 255, 255, 0.226) ;
+    font-family: "Poppins";
+    color:#051e68;
+    font-size: 2em;
+    padding: 1em;
+    line-height: 1.5em;
+}
+
+.subheading-1{
+    color:#051e68;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    display: block;
+    letter-spacing: 3px;
+}
+
+
+  
+.blutext{
+      color: rgb(76, 130, 230);
+      font-weight: bold;
+}
+  
+.subtheader2{
+    font-size: 1em;
+    font-weight: 200;
+    color:#051e68;
+    
+}
+
+
+/* button animation*/
+button {
+    background: none;
+    color: #F8FFE5;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 0.5em;
+   transition: all 0.25s;
+
+}
+
+button:hover{
+border-color: #f1ff5c;
+color:orange;
+box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+transform: translateY(-0.25em);
+cursor: pointer;
+}
+
+
+
+/*about me section*/
+/*What I do section*/
+
+
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    font-family: "Poppins";
+        
+    
+}
+
+/*remember to show this image on big screen*/
+
+.box1.imgaboutme{
+    width: 100%;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1503924087716-07cbd5f49b21?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80");
+    background-size: cover;
+    margin: 0 auto;
+    display: none;
+   
+}
+.box1 .aboutmebox{
+    margin-left: 0em;
+    align-self:flex-start;
+    padding: 2em;
+}
+
+
+
+.subheading{
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+
