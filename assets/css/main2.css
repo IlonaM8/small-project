@@ -82,13 +82,16 @@ main {
 p{
     color: gray;
     line-height: 1.8em;
-    text-align: justify;
-    margin:0.4em;
+    text-align: inherit;
+    margin:1.5em;
+    
     
  }
 
  h4 {
-    font-weight: 300;
+    font-weight: 100;
+    font-size: 1.2em;
+    line-height: 1.9em;
     
 }
 
@@ -96,15 +99,14 @@ h3{
     font-size: 1.4em;
     color: rgb(53, 50, 50);
     
-
-    
-    
     
 }
 
 h1{
     font-size: 2em;
 }
+
+
 
  
 nav{
@@ -243,8 +245,8 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: auto;
-    font-family: "Poppins";
+
+    
         
     
 }
@@ -261,7 +263,7 @@ cursor: pointer;
    
 }
 .box1 .aboutmebox{
-    margin-left: 0em;
+    /* margin-left: 0em; */
     align-self:flex-start;
     padding: 2em;
 }
@@ -269,11 +271,178 @@ cursor: pointer;
 
 
 .subheading{
-    color: black;
+    color: rgb(33, 33, 34);
     text-transform: uppercase;
-    font-size: 13px;
-    display: block;
-    margin-bottom: 5px;
+    padding: 1.6em;
     letter-spacing: 3px;
+}
+
+
+/*What I do section*/ 
+/*Accomplisments*/
+/*blog section*/
+
+.box2, .box3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
+      
+}
+ 
+
+
+.minibox {
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+}
+
+
+/*Hire me section*/
+.box4{
+    border-radius: solid 10px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;  
+
+}
+
+.hireme{
+    background-color: rgb(9, 128, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    max-width: 100%;
+    padding-bottom: 1em;
+   
+}
+
+
+
+.row{
+    text-align: center;
+    color:white;
+    line-height: 2em;
+    font-size: 2.8em; 
+    
+    
+}
+
+.row span{
+    font-weight:bolder;  
+    
+}
+
+.btn-hireme{
+    align-self: center;
+    width: 30%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.btn-hireme, .btn {
+    font-size: 1em;
+    text-align: center;
+    color: rgb(56, 56, 56);
+    transition: all 0.25s;
+
+
+}
+
+.btn-hireme:hover{
+  border-color: #e5f535;
+  /* color:rgb(243, 180, 64); */
+  box-shadow: 0 0.6em 0.6em -0.4em #e0c528;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+
+
+/*contact me*/
+.box5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+/*hide image for mobile*/
+.connectimg{
+    display: none;
+    align-self: center;
+    width: 90%;
+    height:400px;
+    background-image: url("https://images.unsplash.com/photo-1557180295-76eee20ae8aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80");
+    background-size: cover;
+    margin-bottom: 2em;
+}
+
+.contact {
+    flex-direction: column;
+    align-self: center;
+    max-width: 340px;
+    width: 100%;
+    background: #f8f9fa;
+    padding: 3rem !important;
+    left: 0px;
+    margin-bottom: 2em;
+   
+}
+
+
+/* contact form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 0.9em;
+    /* border: 1px solid gray; */
+    border-radius: 4px ;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 16px;
+    border: solid 1px  rgb(231, 230, 214);
+    font-family: "Poppins", Arial, sans-serif;
+    
+
+
+}
+input[type=email]{
+    width: 100%;
+    padding: 1em;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 16px;
+    border: solid 1px rgb(231, 230, 214);
+    font-family: "Poppins", Arial, sans-serif;
+    
+
+}
+
+ input[type=SendMessage]  { 
+    
+    width: 100%;
+    padding: 0.9em;
+    background: #0075f6;
+    border: 1px  #0075f6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: middle;
+    /* display: inline-block; */
+}
+
+input[type=SendMessage]:hover{
+    background-color: #144de9;
 }
 
